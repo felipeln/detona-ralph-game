@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detona Ralph</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./src/styles/main.css">
+  <link rel="shortcut icon" href="./src/images/favicon.jpg" type="image/x-icon">
+</head>
+
+<body>
+  <div class="container">
+  <header>
+    <nav id="menu">
+      <div class="time">
+        <h2>Time Left</h2>
+        <h2 id="time-left">0</h2>
+      </div>
+      <div class="score">
+        <h2>Your Score</h2>
+        <h2 id="game-score">0</h2>
+      </div>
+      <div class="lives">
+        <img src="./src/images/player.png" alt="">
+        <h2 id="game-live">x3</h2>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="panel">
+      <div class="row">
+        <div class="square enemy" id="1"></div>
+        <div class="square" id="2"></div>
+        <div class="square" id="3"></div>
+      </div>
+      <div class="row">
+        <div class="square" id="4"></div>
+        <div class="square" id="5"></div>
+        <div class="square" id="6"></div>
+      </div>
+      <div class="row">
+        <div class="square" id="7"></div>
+        <div class="square" id="8"></div>
+        <div class="square" id="9"></div>
+      </div>
+    </section>
+  </main>
+  <div class="retry-wrapper">
+    <button id="retry">
+      Tente Novamente
+    </button>
+  </div>
+</div>
+  
+  <script defer src="./src/scripts/index.js"></script>
+</body>
+
+</html>
