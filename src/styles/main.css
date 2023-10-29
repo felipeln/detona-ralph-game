@@ -35,12 +35,12 @@ body{
   color: #ff0000;
   margin-bottom: 5px;
 }
-#menu .lives{
+#menu .lifes-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#menu .lives img{
+#menu .lifes-wrapper img{
   width: 35px;
 }
 
